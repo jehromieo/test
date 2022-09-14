@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button a{
+            padding: 0;
+            text-decoration: none;         
+        }
+        a{
+            padding-left: 10px;
+            font-size: 16px;
+            color: teal;
+        }
+        label{
+            font-weight: bolder;
+        }
+        .container{
+            display: grid;
+            width: 200px;
+            outline: 2px solid teal;
+            box-shadow: 0 0 20px 20px silver;
+            border-radius: 20px;
+            padding: 30px;
+        }
+        h2,.arr{
+            text-align: center;
+            font-size: 30px;
+            color: teal;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <label for="username" >Username</label>
+        <input type="text" id="username" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" minlength="6" required>
+        <br>
+        <br>
+        <button id="button">
+            <a id="link" href="#"><div>Submit</div></a>          
+        </button>
+        <br>
+        <p></p>
+        <div class="arr">
+            <a href="sign up.html">Sign up</a>
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+</body>
+</html>
